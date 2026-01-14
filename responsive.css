@@ -49,13 +49,10 @@
 }
 .gallery-description h3{
   font-size: 28px;
-  color: #131313;
 }
 .gallery-description p{
   font-size: 14px;
-  font-weight: 400;
   line-height: 20px;
-  color: #727272;
 }
 /* section-02 */
   #section-02{
@@ -87,25 +84,17 @@
 width: 100%;
 }
 .experience{
-  display: inline-block;
-  border: none;
-  border-radius: 8px;
   margin-top: 30px;
   margin-left: 50px;
   padding: 10px 30px;
-  background-color: #FF900E;
 }
 .experience h2{
   font-size: 30px;
-  font-weight: bold;
   line-height: 50px;
-  color: #FFFFFF;
 }
 .experience p{
   font-size: 18px;
-  font-weight: 500;
-  line-height: 26px;
-  color: #FFFFFF;
+  line-height: 20px;
 }
 /* section-03 */
 #section-03{
