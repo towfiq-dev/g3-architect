@@ -121,9 +121,7 @@ list-style: none;
   line-height: 26px;
   text-align: justify;
 }
-.another-card{
 
-}
 .card{
   padding: 20px;
   margin-bottom: 20px;
@@ -145,6 +143,7 @@ list-style: none;
   text-align: justify;
 }
 .experience{
+  text-align: center;
   display: inline-block;
   border: none;
   border-radius: 8px;
@@ -164,4 +163,46 @@ list-style: none;
   font-weight: 500;
   line-height: 26px;
   color: #FFFFFF;
+}
+/* section-03 */
+#section-03{
+  margin-top: 80px;
+  padding: 0 50px;
+}
+.facts{
+  text-align: center;
+}
+.facts h3{
+ font-size: 45px;
+ font-weight: bold;
+ color: #131313;
+}
+.facts p{
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 26px;
+ color: #727272;
+}
+.achievements{
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 80px;
+}
+.works{
+  padding: 10px;
+  border: 2px solid #FF900E;
+  border-radius: 8px;
+  text-align: center;
+}
+.works h3{
+  font-size: 45px;
+  font-weight: 600;
+  color: #424242;
+}
+.works p{
+  font-size: 20px;
+  font-weight: 600;
+  color: #727272;
 }

@@ -107,4 +107,28 @@ width: 100%;
   line-height: 26px;
   color: #FFFFFF;
 }
+/* section-03 */
+#section-03{
+  margin-top: 40px;
+  padding: 0 16px;
+}
+.facts h3{
+ font-size: 30px;
+}
+.facts p{
+ font-size: 14px;
+ line-height: 20px;
+}
+.achievements{
+  margin-top: 40px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 15px;
+}
+.works h3{
+  font-size: 30px;
+}
+.works p{
+  font-size: 14px;
+}
 }
