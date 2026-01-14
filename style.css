@@ -77,3 +77,26 @@ list-style: none;
   margin-top: 50px;
   margin-bottom: 20px;
 }
+/* section-01 */
+#section-01{
+  align-items: center;
+  margin-top: 80px;
+  gap: 30px;
+}
+.team-gallery{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+.gallery-description h3{
+  font-size: 45px;
+  color: #131313;
+}
+.gallery-description p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #727272;
+  margin: 25px 0;
+}
