@@ -81,6 +81,7 @@ list-style: none;
 #section-01{
   align-items: center;
   margin-top: 80px;
+  padding: 0 30px;
   gap: 30px;
 }
 .team-gallery{
@@ -99,4 +100,68 @@ list-style: none;
   line-height: 26px;
   color: #727272;
   margin: 25px 0;
+  text-align: justify;
+}
+/* section-02 */
+  #section-02{
+  margin-top: 100px;
+  padding: 0 30px;
+  gap: 70px;
+}
+.love-enjoy h3{
+  font-size: 45px;
+  font-weight: bold;
+  color: #131313;
+}
+.love-enjoy p{
+  margin: 25px 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #727272;
+  line-height: 26px;
+  text-align: justify;
+}
+.another-card{
+
+}
+.card{
+  padding: 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px 5px #1313135a;
+}
+.card h4{
+  font-size: 20px;
+  font-weight: 600;
+  color: #131313;
+}
+.card p{
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #727272;
+  line-height: 26px;
+  text-align: justify;
+}
+.experience{
+  display: inline-block;
+  border: none;
+  border-radius: 8px;
+  margin-top: -50px;
+  margin-left: -50px;
+  padding: 15px 35px;
+  background-color: #FF900E;
+}
+.experience h2{
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+.experience p{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #FFFFFF;
 }
