@@ -176,6 +176,7 @@ list-style: none;
  font-size: 45px;
  font-weight: bold;
  color: #131313;
+ margin-bottom: 20px;
 }
 .facts p{
  font-size: 16px;
@@ -188,7 +189,7 @@ list-style: none;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  gap: 80px;
+  gap: 60px;
 }
 .works{
   padding: 10px;
@@ -205,4 +206,34 @@ list-style: none;
   font-size: 20px;
   font-weight: 600;
   color: #727272;
+}
+/* section-04 */
+#section-04{
+  margin-top: 80px;
+  padding: 0 30px;
+}
+.sponspors{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  margin-top: 30px;
+}
+/* footer-section */
+#footer-section{
+  margin-top: 80px;
+  margin-bottom: 100px;
+  padding: 0 30px;
+}
+.footer{
+  background-color: #FFF4E7;
+  height: 80px;
+  border: none;
+  border-radius: 8px;
+}
+.footer p{
+  padding-top: 25px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #424242;
+  text-align: center;
 }
